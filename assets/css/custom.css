@@ -1,0 +1,335 @@
+/* Mobile First, ukuran background menyesuaikan ukuran mockup Pixel 2 */
+header {
+  height               : 687.63px;
+  background-size      : 1100px 687.63px;
+  z-index              : -10;
+  background-position-x: -340px;
+  background-image     : url("../img/bg-vector.png");
+  background-color     : #FDFDFD;
+  background-repeat    : no-repeat;
+}
+
+/* Menghilangkan ilustrasi di mobile */
+.illustration img {
+  display: none;
+}
+
+/* Kustomisasi style dari bootstrap agar sesuai mockup */
+/* Mengganti font menjadi roboto dan memberi margin bagian bawah website */
+body {
+  font-family  : Roboto;
+  margin-bottom: 3rem;
+}
+
+/* Mengurangi opacity bg navbar */
+.bg-custom {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Menyesuaikan style hyperlink pada navbar */
+.navbar-nav a {
+  font-family   : Roboto;
+  font-style    : normal;
+  font-weight   : normal;
+  font-size     : 16px;
+  line-height   : 19px;
+  text-align    : center;
+  letter-spacing: 0.02em;
+  color         : #000000;
+}
+
+/* Menyesuaikan style button donate pada navbar */
+.navbar-nav button.btn-custom {
+  width        : 150px;
+  height       : 55px;
+  background   : #3DB5E2;
+  border-radius: 40px;
+
+  font-family   : Roboto;
+  font-style    : normal;
+  font-weight   : normal;
+  font-size     : 16px;
+  line-height   : 19px;
+  text-align    : center;
+  letter-spacing: 0.02em;
+  color         : #FFFFFF;
+}
+
+/* Mengganti style judul pada header */
+.display-custom {
+  font-family   : Roboto;
+  font-style    : normal;
+  font-weight   : bold;
+  font-size     : 32px;
+  line-height   : 37px;
+  letter-spacing: 0.05em;
+  color         : #FFFFFF;
+}
+
+/* Mengganti style deskripsi pada header */
+.lead {
+  width         : 379px;
+  font-family   : Roboto;
+  font-style    : normal;
+  font-size     : 14px;
+  line-height   : 16px;
+  letter-spacing: 0.02em;
+  color         : #FFFFFF;
+}
+
+/* Mengubah style jumbotron*/
+.jumbotron {
+  background     : transparent !important;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  height         : 687.63px;
+}
+
+/* Memposisikan teks pada button di tengah */
+.btn-text {
+  vertical-align: middle;
+}
+
+/* Memastikan posisi button tidak berubah ketika layar diperkecil */
+.header-btn {
+  width: 416px;
+}
+
+/* Mengubah outline button Contact Us */
+.btn-outline-light {
+  border-width: 2px;
+}
+
+/* Mengubah bentuk button pada header */
+.btn.lg-round {
+  width        : 150px;
+  height       : 48px;
+  border-radius: 30px;
+}
+
+/* Mengubah warna huruf pada button Contact Us ketika diarah cursor */
+.btn:hover {
+  color: #3274CC;
+}
+
+/* Mengubah style huruf pada button Learn More */
+.text-custom-blue {
+  font-family   : Roboto;
+  font-style    : normal;
+  font-weight   : bold;
+  font-size     : 14px;
+  letter-spacing: 0.02em;
+  color         : #3274CC;
+}
+
+/* Mengubah style huruf pada button Contact Us */
+.text-custom-white {
+  font-family   : Roboto;
+  font-style    : normal;
+  font-weight   : bold;
+  font-size     : 14px;
+  letter-spacing: 0.02em;
+}
+
+/* Mengubah style card pada section info */
+.card {
+  width        : 194px;
+  height       : 246.99px;
+  background   : #FFFFFF;
+  box-shadow   : 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  margin       : 0 auto;
+}
+
+/* Mengubah style h1 pada section info */
+.info h1 {
+  font-family   : Roboto;
+  font-style    : normal;
+  font-weight   : bold;
+  font-size     : 28px;
+  line-height   : 33px;
+  letter-spacing: 0.02em;
+  color         : #000000;
+}
+
+/* Mengubah style deskripsi card pada section info */
+.info p.card-text {
+  width         : 162px;
+  font-family   : Roboto;
+  font-style    : normal;
+  font-weight   : normal;
+  font-size     : 12px;
+  line-height   : 14px;
+  text-align    : center;
+  letter-spacing: 0.02em;
+  color         : #000000;
+}
+
+/* Mengubah style judul card pada section info */
+.info p.card-title {
+  font-family   : Roboto;
+  font-style    : normal;
+  font-weight   : bold;
+  font-size     : 14px;
+  line-height   : 16px;
+  text-align    : center;
+  letter-spacing: 0.02em;
+  color         : #000000;
+}
+
+/* Mengubah ukuran gambar pada card */
+.card-img-top {
+  width       : 140px;
+  height      : 108.99px;
+  margin-top  : 16px;
+  margin-left : 27px;
+  margin-right: 27px;
+}
+
+
+/* Penyesuaian style dengan ukuran layar yang lebih besar */
+@media only screen and (min-width: 768px) {
+
+  /* Memberi margin pada bagian bawah website */
+  body {
+    margin-bottom: 5rem;
+  }
+
+  /* Background menyesuaikan ukuran laptop */
+  header {
+    position             : initial;
+    width                : 100%;
+    height               : 900px;
+    background-size      : 100% 900px;
+    background-position-x: 0;
+    margin-bottom        : 140px;
+  }
+
+  /* Memunculkan ilustrasi pada ukuran laptop */
+  .illustration img {
+    display: initial;
+  }
+
+  /* Memposisikan header agar sesuai mockup */
+  .jumbotron {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    height         : 850px;
+  }
+
+  /* Memberi margin pada header agar sesuai dengan mockup */
+  .jumbotron div.container-fluid {
+    margin-left : 110px;
+    margin-right: 110px;
+  }
+
+  /* Mengganti style judul pada header */
+  .display-custom {
+    width         : 130%;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : bold;
+    font-size     : 48px;
+    line-height   : 56px;
+    letter-spacing: 0.05em;
+    color         : #FFFFFF;
+  }
+
+  /* Mengganti style deskripsi pada header */
+  .lead {
+    width         : 100%;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 18px;
+    line-height   : 21px;
+    letter-spacing: 0.02em;
+    color         : #FFFFFF;
+  }
+
+  /* Mengubah bentuk button pada header */
+  .btn.lg-round {
+    padding      : 10px;
+    width        : 200px;
+    height       : 53px;
+    border-radius: 30px;
+  }
+
+  /* Mengubah style huruf pada button Learn More */
+  .text-custom-blue {
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : bold;
+    font-size     : 18px;
+    letter-spacing: 0.02em;
+    color         : #3274CC;
+  }
+
+  /* Mengubah style huruf pada button Contact Us */
+  .text-custom-white {
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : bold;
+    font-size     : 18px;
+    letter-spacing: 0.02em;
+  }
+
+  /* Mengubah style card pada section info */
+  .card {
+    width        : 232px;
+    height       : 300px;
+    background   : #FFFFFF;
+    box-shadow   : 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    margin       : 0 auto;
+  }
+
+  /* Mengubah style h1 pada section info */
+  .info h1 {
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : bold;
+    font-size     : 40px;
+    line-height   : 47px;
+    letter-spacing: 0.02em;
+    color         : #000000;
+
+    margin-bottom: 20px;
+  }
+
+  /* Mengubah style deskripsi card pada section info */
+  .info p.card-text {
+    width         : 200px;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 16px;
+    line-height   : 19px;
+    text-align    : center;
+    letter-spacing: 0.02em;
+    color         : #000000;
+  }
+
+  /* Mengubah style judul card pada section info */
+  .info p.card-title {
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : bold;
+    font-size     : 18px;
+    line-height   : 21px;
+    text-align    : center;
+    letter-spacing: 0.02em;
+    color         : #000000;
+  }
+
+  /* Mengubah ukuran gambar pada card */
+  .card-img-top {
+    width       : 160px;
+    height      : 124.56px;
+    margin-top  : 16px;
+    margin-left : 36px;
+    margin-right: 36px;
+  }
+}
