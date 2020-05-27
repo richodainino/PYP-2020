@@ -14,10 +14,9 @@ header {
   display: none;
 }
 
-/* Memastikan ukuran html sesuai dengan ukuran layar */
-html {
-  position: fixed;
-  width: auto;
+/* Memastikan ukuran body sesuai dengan ukuran layar */
+body {
+  position: absolute;
 }
 
 /* Kustomisasi style dari bootstrap agar sesuai mockup */
