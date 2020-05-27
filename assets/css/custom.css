@@ -14,10 +14,16 @@ header {
   display: none;
 }
 
+/* Memastikan ukuran html sesuai dengan ukuran layar */
+html {
+  position: fixed;
+  width: auto;
+}
+
 /* Kustomisasi style dari bootstrap agar sesuai mockup */
 /* Mengganti font menjadi roboto dan memberi margin bagian bawah website */
 body {
-  font-family  : Roboto;
+  font-family  : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 3rem;
 }
 
@@ -28,7 +34,7 @@ body {
 
 /* Menyesuaikan style hyperlink pada navbar */
 .navbar-nav a {
-  font-family   : Roboto;
+  font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style    : normal;
   font-weight   : normal;
   font-size     : 16px;
@@ -45,7 +51,7 @@ body {
   background   : #3DB5E2;
   border-radius: 40px;
 
-  font-family   : Roboto;
+  font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style    : normal;
   font-weight   : normal;
   font-size     : 16px;
@@ -57,7 +63,7 @@ body {
 
 /* Mengganti style judul pada header */
 .display-custom {
-  font-family   : Roboto;
+  font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style    : normal;
   font-weight   : bold;
   font-size     : 32px;
@@ -69,7 +75,7 @@ body {
 /* Mengganti style deskripsi pada header */
 .lead {
   width         : 379px;
-  font-family   : Roboto;
+  font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style    : normal;
   font-size     : 14px;
   line-height   : 16px;
@@ -115,7 +121,7 @@ body {
 
 /* Mengubah style huruf pada button Learn More */
 .text-custom-blue {
-  font-family   : Roboto;
+  font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style    : normal;
   font-weight   : bold;
   font-size     : 14px;
@@ -125,7 +131,7 @@ body {
 
 /* Mengubah style huruf pada button Contact Us */
 .text-custom-white {
-  font-family   : Roboto;
+  font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style    : normal;
   font-weight   : bold;
   font-size     : 14px;
@@ -144,7 +150,7 @@ body {
 
 /* Mengubah style h1 pada section info */
 .info h1 {
-  font-family   : Roboto;
+  font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style    : normal;
   font-weight   : bold;
   font-size     : 28px;
@@ -156,7 +162,7 @@ body {
 /* Mengubah style deskripsi card pada section info */
 .info p.card-text {
   width         : 162px;
-  font-family   : Roboto;
+  font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style    : normal;
   font-weight   : normal;
   font-size     : 12px;
@@ -168,7 +174,7 @@ body {
 
 /* Mengubah style judul card pada section info */
 .info p.card-title {
-  font-family   : Roboto;
+  font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style    : normal;
   font-weight   : bold;
   font-size     : 14px;
@@ -228,7 +234,7 @@ body {
   /* Mengganti style judul pada header */
   .display-custom {
     width         : 130%;
-    font-family   : Roboto;
+    font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style    : normal;
     font-weight   : bold;
     font-size     : 48px;
@@ -240,7 +246,7 @@ body {
   /* Mengganti style deskripsi pada header */
   .lead {
     width         : 100%;
-    font-family   : Roboto;
+    font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style    : normal;
     font-weight   : normal;
     font-size     : 18px;
@@ -259,7 +265,7 @@ body {
 
   /* Mengubah style huruf pada button Learn More */
   .text-custom-blue {
-    font-family   : Roboto;
+    font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style    : normal;
     font-weight   : bold;
     font-size     : 18px;
@@ -269,7 +275,7 @@ body {
 
   /* Mengubah style huruf pada button Contact Us */
   .text-custom-white {
-    font-family   : Roboto;
+    font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style    : normal;
     font-weight   : bold;
     font-size     : 18px;
@@ -288,7 +294,7 @@ body {
 
   /* Mengubah style h1 pada section info */
   .info h1 {
-    font-family   : Roboto;
+    font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style    : normal;
     font-weight   : bold;
     font-size     : 40px;
@@ -302,7 +308,7 @@ body {
   /* Mengubah style deskripsi card pada section info */
   .info p.card-text {
     width         : 200px;
-    font-family   : Roboto;
+    font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style    : normal;
     font-weight   : normal;
     font-size     : 16px;
@@ -314,7 +320,7 @@ body {
 
   /* Mengubah style judul card pada section info */
   .info p.card-title {
-    font-family   : Roboto;
+    font-family   : Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style    : normal;
     font-weight   : bold;
     font-size     : 18px;
